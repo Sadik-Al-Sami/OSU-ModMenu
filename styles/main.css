@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* header section */
+.main-header {
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    padding: 216px 230px 216px 845px;
+}
+.banner-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    text-align: right;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    text-align: right;
+    margin-bottom: 32px;
+}
+
+.button {
+    text-align: right;
+}
+.contact {
+    font: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    background: #F15B22;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+
+/* main section */
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.failure {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    justify-content: space-evenly;
+    margin-bottom: 130px;
+}
+
+.failure-title {
+    color: #151414;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    color: #444343;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.failure-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.failure-list {
+    margin: 8px 0;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.fa-check {
+    color: #16D887;
+}
+
+/* Plans */
+.plans-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 86px;
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+.plans-title {
+    text-align: center;
+    color: #151414;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plan-title {
+    color: #151414;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    color: #737272;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+}
