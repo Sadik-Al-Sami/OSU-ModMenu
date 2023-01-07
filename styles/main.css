@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /* Font name : Work Sans */
 
+/* Global-Declaration */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -52,7 +53,8 @@ main {
     margin: auto;
 }
 
-.failure {
+/* My list */
+.my-failure {
     display: flex;
     align-items: center;
     margin-top: 128px;
@@ -90,7 +92,7 @@ main {
     color: #444343;
 }
 
-.fa-check {
+.fa-check { /* Changed tick color */
     color: #16D887;
 }
 
@@ -109,38 +111,35 @@ main {
     font-family: 'Work Sans';
     font-weight: 700;
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
 }
 
 .plan-title {
     color: #151414;
     font-family: 'Work Sans';
     font-weight: 700;
-    font-size: 30px;
-    margin-top: 25px;
+    font-size: 32px;
+    margin-top: 24px;
     margin-bottom: 16px;
 }
 
 .plan-description {
     color: #737272;
     font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 500;
-    font-size: 25px;
-    line-height: 29px;
+    font-size: 24px;
 }
 
 /* Contact */
-
 .contact {
-    background-image: url(/images/watch.png), url(/images/gradient3.png);
+    background-image: url("/images/watch.png"), url("/images/gradient3.png");
     background-blend-mode: soft-light;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 59px;
-    padding-bottom: 59px;
+    padding-top: 64px;
+    padding-bottom: 64px;
     padding-left: 64px;
-    padding-right: 617px;
+    padding-right: 608px;
     margin-bottom: 128px;
     border-radius: 10px;
 }
@@ -159,7 +158,6 @@ main {
 }
 
 /* Products */
-
 .products {
     margin-bottom: 128px;
 }
@@ -218,5 +216,89 @@ main {
     margin-bottom: 8px;
 }
 
+
+.join-us {
+    background-image: url("/images/keyboard.png"), linear-gradient(to right, #fc5919 ,transparent);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-button:hover {
+    cursor: pointer;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+}
+
 /* footer */
 
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 320px;
+    background-color: #151414;
+    padding: 130px 208px;
+    height: 560px;
+    text-align: left;
+}
+
+.location,
+.subscribtion {
+    max-width: 320px;
+}
+
+.location-title,
+.subscribtion-title {
+    color: #F8F8F8;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.location-subtitle,
+.subscibtion-subtitle {
+    font-family: 'Work Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 16px 0;
+}
+
+.social-link {
+    margin-right: 18px;
+}
+.email {
+    height: 64px;
+    width: 325px;
+    background-color: #151414;
+    border-radius: 5px;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.subscribtion-button {
+    background-color: #FFFFFF;
+    color: #F15B22;
+}
+
+/* Changed the placeholders text style */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: 'Work Sans';
+    font-size: 16px;
+    padding-left: 16px;
+}
+
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'Work Sans';
+    font-size: 16px;
+    padding-left: 16px;
+}
+  :-ms-input-placeholder { /* IE 10+ */
+    font-family: 'Work Sans';
+    font-size: 16px;
+    padding-left: 16px;
+}
+  :-moz-placeholder { /* Firefox 18- */
+    font-family: 'Work Sans';
+    font-size: 16px;
+    padding-left: 16px;
+}
