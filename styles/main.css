@@ -32,10 +32,10 @@
     margin-bottom: 32px;
 }
 
-.button {
+.header-button {
     text-align: right;
 }
-.contact {
+.contact-button {
     font: 'Work Sans';
     font-weight: 600;
     font-size: 20px;
