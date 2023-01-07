@@ -9,7 +9,7 @@
 
 /* header section */
 .main-header {
-    background-image: url(../images/banner/banner2.png);
+    background-image: url("../images/banner/banner2.png");
     background-size: cover;
     padding: 216px 230px 216px 845px;
 }
@@ -132,7 +132,7 @@ main {
 
 /* Contact */
 .contact {
-    background-image: url("/images/watch.png"), url("/images/gradient3.png");
+    background-image: url("../images/watch.png"), url("../images/gradient3.png");
     background-blend-mode: soft-light;
     background-size: cover;
     background-repeat: no-repeat;
@@ -218,7 +218,7 @@ main {
 
 
 .join-us {
-    background-image: url("/images/keyboard.png"), linear-gradient(to right, #fc5919 ,transparent);
+    background-image: url("../images/keyboard.png"), linear-gradient(to right, #fc5919 ,transparent);
     background-blend-mode: soft-light;
     background-size: cover;
     background-repeat: no-repeat;
